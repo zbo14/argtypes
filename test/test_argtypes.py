@@ -1,5 +1,5 @@
 import unittest
-from src import argtypes
+from argtypes import argtypes
 
 def no_op():
     pass

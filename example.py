@@ -1,14 +1,3 @@
-## argtypes 
-
-A python decorator to check argument types.
-
-Adapted from [this](https://stackoverflow.com/a/15577293) stack overflow answer.
-
-### Usage 
-
-Example
-
-```python
 from argtypes import argtypes
 
 def type_error(f, *args):
@@ -45,8 +34,3 @@ if __name__ == '__main__':
     type_error(expects_float_or_tuple, 1)
 
     print('Done!')
-```
-
-### Tests
-
-`python3 -m pytest test`
